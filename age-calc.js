@@ -14,7 +14,7 @@ function checkAge(e) {
 
     console.log('RUNNING...' +myAge);
     if (myAge < license && myAge >= jrop) {
-        message+= `<li>you can have a JrOp license</li>`;
+        message += `<li>you can have a JrOp license</li>`;
     }
 
     if (myAge >= license) {
